@@ -1,0 +1,13 @@
+services:
+  app:
+    build: . # Builds according to the Dockerfile instructions...
+    environment:
+      - LIARA_API_KEY=CHANGEME
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    depends_on:
+      - redis
+  redis:
+    image: redis:alpine
+    container_name: redis-alpine
+    restart: unless-stopped
