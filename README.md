@@ -6,7 +6,7 @@
 ### Docker-compose:
 Fork the project:
 ```sh
-git clone https://github.com/parsajr/Eitaa_task
+git clone https://github.com/ParsaJR/Eitaa_latest_products
 ```
 
 After that, use the `docker-compose.yaml` to setup the services.
@@ -36,7 +36,7 @@ Will does the job.
 ### Local environment
 1. Fork the project
 ```sh
-git clone https://github.com/parsajr/Eitaa_task
+git clone https://github.com/ParsaJR/Eitaa_latest_products
 ```
 
 2. Set a required environment variables in your environment. you can use the
